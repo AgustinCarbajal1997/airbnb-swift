@@ -9,7 +9,27 @@ import SwiftUI
 
 struct ExploreView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationStack {
+            ScrollView {
+                SearchAndFilterBar()
+                LazyVStack(spacing: 32) {
+                    ForEach(0 ... 10, id: \.self) {
+                        listing in
+                        NavigationLink(value: listing) {
+                            ListingItemView()
+                                .frame(height: 400)
+                                .clipShape(RoundedRectangle(cornerRadius: 10))
+                        }
+                            
+                    }
+                }
+                .padding()
+            }
+            .navigationDestination(for: Int.self, destination: {
+                listing in
+                Text("Listing view")
+            })
+        }
     }
 }
 
