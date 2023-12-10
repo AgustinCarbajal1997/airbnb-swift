@@ -16,6 +16,7 @@
 		9F2872CF2B253CC7005B6F50 /* SearchAndFilterBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2872CE2B253CC7005B6F50 /* SearchAndFilterBar.swift */; };
 		9F2872D12B254152005B6F50 /* ListingDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2872D02B254152005B6F50 /* ListingDetailView.swift */; };
 		9F2872D42B2541E5005B6F50 /* ListingImageCarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2872D32B2541E5005B6F50 /* ListingImageCarouselView.swift */; };
+		9FD013A32B25FB7E00031541 /* DestinationSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD013A22B25FB7E00031541 /* DestinationSearchView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		9F2872CE2B253CC7005B6F50 /* SearchAndFilterBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchAndFilterBar.swift; sourceTree = "<group>"; };
 		9F2872D02B254152005B6F50 /* ListingDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingDetailView.swift; sourceTree = "<group>"; };
 		9F2872D32B2541E5005B6F50 /* ListingImageCarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingImageCarouselView.swift; sourceTree = "<group>"; };
+		9FD013A22B25FB7E00031541 /* DestinationSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationSearchView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +141,7 @@
 			children = (
 				9F2872CA2B25332F005B6F50 /* ExploreView.swift */,
 				9F2872CE2B253CC7005B6F50 /* SearchAndFilterBar.swift */,
+				9FD013A22B25FB7E00031541 /* DestinationSearchView.swift */,
 			);
 			path = Explore;
 			sourceTree = "<group>";
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9F2872D42B2541E5005B6F50 /* ListingImageCarouselView.swift in Sources */,
+				9FD013A32B25FB7E00031541 /* DestinationSearchView.swift in Sources */,
 				9F2872B32B2531BA005B6F50 /* ContentView.swift in Sources */,
 				9F2872CD2B25353F005B6F50 /* ListingItemView.swift in Sources */,
 				9F2872CB2B25332F005B6F50 /* ExploreView.swift in Sources */,
